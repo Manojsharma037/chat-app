@@ -1,22 +1,70 @@
+# ======================
 # Node modules
-/node_modules/
-
-# Environment variables
-.env
-
-# Logs
+# ======================
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# OS files
-.DS_Store
-Thumbs.db
+# ======================
+# Environment variables
+# ======================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
 
-# Build folders (if any)
+# ======================
+# Build output
+# ======================
 dist/
 build/
+out/
 
-# IDE/editor folders
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# Runtime data
+# ======================
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================
+# Editor / IDE
+# ======================
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# ======================
+# Coverage
+# ======================
+coverage/
+
+# ======================
+# Cache
+# ======================
+.cache/
+.eslintcache
+
+# ======================
+# Optional (Next.js / React / Vite)
+# ======================
+.next/
+.vite/

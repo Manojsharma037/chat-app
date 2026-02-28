@@ -12,7 +12,7 @@ const ChatPage = ({ user, onLogout }) => {
     const [contacts, setContacts] = useState([]);
     const [unreadCounts, setUnreadCounts] = useState({});
     const [onlineUsers, setOnlineUsers] = useState([]);
-    const [showSidebar, setShowSidebar] = useState(false); 
+    const [showSidebar, setShowSidebar] = useState(false);
 
     const socketRef = useRef(null);
     const chatBottomRef = useRef(null);
